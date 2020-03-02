@@ -9,6 +9,7 @@ def circle(radius):
     area = math.pi * (radius**2)
     return area
 
+
 def first_last(list):
     fandl = []
     fandl.append(list[0])
