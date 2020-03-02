@@ -3,7 +3,6 @@ import datetime
 import task
 
 
-
 class TestCase(unittest.TestCase):
 
     def test1(self):
