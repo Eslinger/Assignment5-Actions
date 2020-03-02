@@ -16,6 +16,11 @@ class TestCase(unittest.TestCase):
         expected = 50.26548245743669
         self.assertEqual(expected, task.circle(4))
 
+    def test_first_last(self):
+        myList = ["This", "is", "a", "test"]
+        expected = ["This", "test"]
+        self.assertEqual(expected, task.first_last(myList))
+
 
 if __name__ == '__main__':
     unittest.main()
