@@ -6,11 +6,11 @@ class TestCase(unittest.TestCase):
 
     def test1(self):
         expected = "success"
-        self.asserEqual(expected, task.firstrun())
+        self.assertEqual(expected, task.firstrun())
 
     def test2(self):
         expected = "failure"
-        self.asserNotEqual(expected, task.firstrun())
+        self.assertNotEqual(expected, task.firstrun())
 
 
 if __name__ == '__main__':
